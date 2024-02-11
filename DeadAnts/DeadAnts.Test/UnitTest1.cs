@@ -2,6 +2,7 @@ namespace DeadAnts.Test
 {
     public class DeadAntsTest
     {
+        //This test is for some examples of dead ants
         [Fact]
         public void ShouldTestDeadAnts()
         {
@@ -10,6 +11,7 @@ namespace DeadAnts.Test
             Assert.Equal(1, AntsProgram.CountDeadAnts("ant ant .... a nt"));
         }
 
+        //This Test Should validate  if  the input is null or empty
         [Fact]
         public void ShouldTestIfAntsTrialIsCero()
         {
